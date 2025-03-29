@@ -1,7 +1,7 @@
 package com.JavaApisWeb.code.empleado.entidades;
 
 public class Empleado {
-    private int id;
+    private long id;
     private String nombre;
     private String apellido;
     private String posicion;
@@ -9,18 +9,18 @@ public class Empleado {
     public Empleado() {
     }
 
-    public Empleado(int id, String nombre, String apellido, String posicion) {
+    public Empleado(long id, String nombre, String apellido, String posicion) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.posicion = posicion;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
